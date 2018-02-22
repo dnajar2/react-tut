@@ -1,0 +1,31 @@
+{
+  "name": "react-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+	"start": "webpack-dev-server"
+  },
+  "babel":{
+	"presets" :["es2015"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnajar2/react-tut.git"
+  },
+  "author": "david najar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnajar2/react-tut/issues"
+  },
+  "homepage": "https://github.com/dnajar2/react-tut#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
